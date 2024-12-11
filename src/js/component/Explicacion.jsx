@@ -10,6 +10,9 @@ const Explicacion = (props) => {
             <h1 className='d-flex justify-content-center'> Explicación</h1>
             <ul>
                 <li>El hook useState es un hook de estado</li>
+                <li>curioso que en este ejercicio nos enseñaron a renderizar este componente sin usar useState, componente sin estado</li>
+                <li>Se hace renderizando por fuera el componente varias veces</li>
+                <li>NO ES CONVENIENTE pero  practico para mostrar que se puede configurar este mismo contador sin use efect</li>
             </ul>
             <h1 className='d-flex justify-content-center'> Ventajas con React</h1>
             <ul>

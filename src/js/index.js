@@ -17,12 +17,22 @@ import '../styles/index.css';
 //render your react application
 const root = ReactDOM.createRoot(document.getElementById('app'));
 
+/*
+let seconds = 0
 setInterval(() => {
+    seconds++
     root.render(
-        <div>
-            <SimpleCounter  />
-            <SimpleCounterManual  />
-            <Explicacion  />
-        </div>
-    );
-}, 1000);
+    <div>
+        <SimpleCounter seconds={seconds}  />
+        <SimpleCounterManual  />
+        <Explicacion  />
+    </div>
+);},1000)
+*/
+root.render(
+    <div>
+        <SimpleCounter  />
+        <SimpleCounterManual  />
+        <Explicacion  />
+    </div>
+);
