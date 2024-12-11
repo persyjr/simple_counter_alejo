@@ -7,23 +7,22 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
+import SimpleCounterManual from "./component/SimpleCounterManual.jsx";
 import SimpleCounter from "./component/SimpleCounter.jsx";
+import Explicacion from "./component/Explicacion.jsx";
 
 // Include your index.scss file into the bundle
 import '../styles/index.css';
 
 //render your react application
-let counter = 0;
 const root = ReactDOM.createRoot(document.getElementById('app'));
 
 setInterval(() => {
-    const four = Math.floor(counter / 1000);
-    const three = Math.floor(counter / 100);
-    const two = Math.floor(counter / 10);
-    const one = Math.floor(counter / 1);
-    counter++;
-    
     root.render(
-        <SimpleCounter digitOne={one} digitTwo={two} digitThree={three} digitFour={four} />
+        <div>
+            <SimpleCounter  />
+            <SimpleCounterManual  />
+            <Explicacion  />
+        </div>
     );
 }, 1000);

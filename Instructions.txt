@@ -13,3 +13,12 @@ Crear funciones de parar, reiniciar y resumir el contador.
 Crear una alerta cuando el usuario llega a un tiempo específico, es decir, el usuario ingresa "10", y una alerta debería mostrarse notificando al usuario que se alcanzó su tiempo.
 
 Ejemplo: https://github.com/breatheco-de/exercise-simple-counter-react/
+
+
+NOTA: 1. Aca se usa React RCA por lo que la configuracion y el inicio es distinto al uso de vite
+      2. se usa webpack por lo que la configuracion de index.html es template.html
+            new HtmlWebpackPlugin({
+                    favicon: '4geeks.ico',
+                    template: 'template.html'
+                }),
+        
