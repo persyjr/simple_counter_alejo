@@ -7,6 +7,7 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
+import Home2 from "./component/home2.jsx";
 import SimpleCounterManual from "./component/SimpleCounterManual.jsx";
 import SimpleCounter from "./component/SimpleCounter.jsx";
 import Explicacion from "./component/Explicacion.jsx";
@@ -31,8 +32,6 @@ setInterval(() => {
 */
 root.render(
     <div>
-        <SimpleCounter  />
-        <SimpleCounterManual  />
-        <Explicacion  />
+        <Home2 />
     </div>
 );
